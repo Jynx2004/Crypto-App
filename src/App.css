@@ -1,0 +1,59 @@
+/* App.css */
+
+/* Set the overall styles for the App */
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Full height */
+  background-color: black; /* Black background */
+  color: white; /* White text */
+  font-family: Arial, sans-serif; /* Default font */
+}
+
+/* Style for dropdowns */
+select {
+  margin: 10px;
+  padding: 8px;
+  border: 1px solid white; /* White border */
+  border-radius: 4px; /* Rounded corners */
+  background-color: #333; /* Darker background for dropdown */
+  color: white; /* White text for dropdown */
+}
+
+/* Label styling */
+label {
+  margin: 10px;
+  font-size: 18px; /* Increase label font size */
+}
+
+/* Navigation links styling */
+nav {
+  margin: 20px;
+}
+
+nav a {
+  color: white; /* White text for links */
+  text-decoration: none; /* Remove underline from links */
+  font-size: 18px; /* Increase font size */
+  margin: 0 10px; /* Margin between links */
+}
+
+nav a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Button styles if you add any buttons in the future */
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #555; /* Dark button background */
+  color: white; /* White text */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+button:hover {
+  background-color: #777; /* Lighter background on hover */
+}
